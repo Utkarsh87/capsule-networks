@@ -1,11 +1,6 @@
 # Capsule-Networks
-Trial scripts for implementing CapsNets for solving computer vision tasks.
+Trial scripts for implementing the novel Capsule Network architecture proposed in https://arxiv.org/pdf/1710.09829.pdf by Hinton, Frosst and Sabour for solving computer vision problems.
 
-CapsNet MNIST v2.0.x: my attempt to write a capsule network from scratch, currently only the framework of which is ready.
-CapsuleNet: is code derived from the author stated below for understanding in depth about Capsule Networks and trying it on various datasets.
+CapsuleNet: is the implementation of the CapsuleNet architecture derived from Xifeng Guo(https://github.com/XifengGuo/CapsNet-Keras) for experimenting with different datasets.
 
-Credit to Xifeng Guo for the code in CapsuleNet.ipynb
-Xifeng Guo: Github: https://github.com/XifengGuo/CapsNet-Keras
-
-Credit to Aurelien Geron for the code in CapsNet MNIST v2.0.x.ipynb
-Aurelien Geron: https://github.com/ageron/handson-ml/blob/master/extra_capsnets.ipynb
+CapsNet MNIST v2.0.x: my attempt to write a capsule network from scratch, in tensorflow 2.x and keras following along Aurelien Geron's script(https://github.com/ageron/handson-ml/blob/master/extra_capsnets.ipynb).
