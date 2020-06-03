@@ -1,0 +1,3 @@
+Everything apart from backprop is in place. Training and validation passes work fine, dynamic routing executes as expected, just the weight/transformation matrices are not learning yet
+due to the absence of the backpropagation of the gradients through the network.
+TODO: Implement backprop
