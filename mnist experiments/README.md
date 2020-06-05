@@ -5,10 +5,10 @@ Using the Dynamic Routing ALgorithm proposed in the paper as is:
 
 Current progress:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |           
+| Conv layers  | Kernels | Kernel sizes | Epochs | Routing iterations | Val accuracy | Val loss | Comments |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 1  |  256 |  9  |  10  |  3   |  99.33%   |  0.0076  | first result |
+| 2  |  256 |  9  |  15  |  3   |  99.42%   |  0.00527  | increased conv layer, not much help, not the motive |
  
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
