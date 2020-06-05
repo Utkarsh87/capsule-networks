@@ -3,9 +3,20 @@ Using the Dynamic Routing ALgorithm proposed in the paper as is:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Model architecture in use:
-![Model architecture in use:](https://github.com/Utkarsh87/Capsule-Networks/blob/master/mnist%20experiments/images/model1.png)
+Current progress:
+
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------
+ | Conv layers | Kernel sizes | Kernels | Routing iterations | Epochs | Validation accuracy | Validation loss |          Comment       |                     |                                                                                                         
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------
+ |     1       |      9       |   256   |       3            |    10  |        99.33%       |    0.0076       |      First result      |                     |
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------
+ |     2       |      9       |   256   |       3            |    15  |        99.42%       |    0.0052       |  Not much improvement  |                     |
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------
+ |     1       |      9       |   256   |       4            |    10  |        ?            |    ?            |            ?           |                     |                                                                                                           
+--------------------------------------------------------------------------------------------------------------------------------------------------------------                   
+ 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Current progress: On 10 epochs for 3 iterations of the dynamic routing algorithm, network achieves top-1 validation accuracy of 99.33% and top-1 validation loss of 0.0076
+Model architecture in use:(for trials 1 and 3, trial 2 had 2 conv layers in succession before feeding it to primary caps)
+![Model architecture in use:](https://github.com/Utkarsh87/Capsule-Networks/blob/master/mnist%20experiments/images/model1.png)
