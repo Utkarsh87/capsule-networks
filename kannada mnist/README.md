@@ -1,6 +1,6 @@
 This repository contains scripts for experimenting on the ![Kannada MNIST and DIG-10K MNIST datasets](https://towardsdatascience.com/a-new-handwritten-digits-dataset-in-ml-town-kannada-mnist-69df0f2d1456).
-
 Original paper: https://arxiv.org/pdf/1908.01242.pdf
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Progress:
