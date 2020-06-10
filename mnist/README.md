@@ -1,5 +1,5 @@
 Using the Dynamic Routing ALgorithm proposed in the paper as is:
-![Using the Dynamic Routing ALgorithm proposed in the paper as is:](https://github.com/Utkarsh87/Capsule-Networks/blob/master/mnist%20experiments/images/Dynamic%20Routing.PNG)
+![Using the Dynamic Routing ALgorithm proposed in the paper as is:](https://github.com/Utkarsh87/Capsule-Networks/blob/master/mnist/images/Dynamic%20Routing.PNG)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -15,4 +15,4 @@ Current progress:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Model architecture in use(version 1.0.1):
-![Model architecture in use:](https://github.com/Utkarsh87/Capsule-Networks/blob/master/mnist%20experiments/images/model1.png)
+![Model architecture in use:](https://github.com/Utkarsh87/Capsule-Networks/blob/master/mnist/images/model1.png)
