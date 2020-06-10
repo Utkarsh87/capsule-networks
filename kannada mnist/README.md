@@ -7,13 +7,13 @@ This repository contains scripts for experimenting on the ![Kannada MNIST and DI
 Progress:
 
 
-| Version | Script | Epochs | Validation accuracy | Validation loss | Test set accuracy | DIG set accuracy | Comments |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| 1.0.1 (CapsuleNet Kannada MNIST) | Basic capsule network | 12 | 99.5% | 0.00450 | 97.84% | 81.12% | - |
-| 1.0.2 (CapsuleNet Kannada MNIST with Augmentation) | Capsule network with image data augmentation | 20 | 99.64% | 0.00365 | 98.27% | 86.54% | better generalisation |
+|    Version    |     Epochs    | Val accuracy  |    Val loss   | Test accuracy | DIG accuracy  |     Comments  |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+|     1.0.1     |       12      |     99.5%     |    0.00450    |     97.84%    |     81.12%    |      -        |
+|     1.0.2     |       20      |     99.64%    |    0.00365    |     98.27%    |     86.54%    | better generalisation |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Model architecture in use(1.0.2):
-![Model architecture in use:](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada mnist/images/model.png)
+![Model architecture in use:](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada%20mnist/images/model.png)
