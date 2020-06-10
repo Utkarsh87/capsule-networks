@@ -1,5 +1,6 @@
 This repository contains scripts for experimenting on the ![Kannada MNIST and DIG-10K MNIST datasets](https://towardsdatascience.com/a-new-handwritten-digits-dataset-in-ml-town-kannada-mnist-69df0f2d1456).
-Original paper: https://arxiv.org/pdf/1908.01242.pdf
+
+![Original paper](https://arxiv.org/pdf/1908.01242.pdf)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -15,4 +16,4 @@ Progress:
 
 
 Model architecture in use(1.0.2):
-![Model architecture in use:](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada mnsit/images/model.png)
+![Model architecture in use:](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada mnist/images/model.png)
