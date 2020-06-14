@@ -14,6 +14,8 @@ Progress:
 |     1.0.3     |       20      |     99.66%    |    0.00358    |     98.13%    |     85.13%    | deconv decoder deployed instead of dense network | improvement on recon loss, promising, train for more epochs, will be sticking with deconv recon network hereon |
 |     1.0.4     |       30      |     99.65%    |    0.00347    |     98.44%    |     84.93%    | more epochs, change val split to 0.1 | best test acc, drastic decrease in dig acc, maybe try other augmentations |
 |     1.0.5     |       35      |     99.60%    |    0.00386    |     98.44%    |     91.23%    | nadam optimizer, more data augmentation | matches best test acc and by far the best dig acc, still underfitting, train for more epochs. Val loss lesser than train loss due to the high data augmentation making it tougher to learn features |
+|     1.0.6     |       70      |     99.68%, 99.67%    |    0.00350, 0.00380    |     98.46%, 98.50%    |     91.11%, 91.03%    |      trained previous architecture for more epochs     |  probably reached the threshold performance using this architecture, the <b>best-weights6.h5</b> file holds the model weights with the <b>better dig set performance</b>, the <b>trained_model6.h5</b> file holds the weights for the <b>best test set performance yet</b> |
+
 
 NOTE: performance metrics reported are top-1 metrics
 
