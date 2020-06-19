@@ -1,10 +1,8 @@
-This repository contains scripts for experimenting on the ![Kannada MNIST and DIG-10K MNIST datasets](https://towardsdatascience.com/a-new-handwritten-digits-dataset-in-ml-town-kannada-mnist-69df0f2d1456).
-
-![Original paper](https://arxiv.org/pdf/1908.01242.pdf)
+The scripts in this folder implement the novel <b>Capsule Network</b> architecture to the experiment on the ![Kannada MNIST and DIG-10K MNIST datasets](https://towardsdatascience.com/a-new-handwritten-digits-dataset-in-ml-town-kannada-mnist-69df0f2d1456).
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Progress:
+Progress is logged below:
 
 
 |    Version    |     Epochs    | Val accuracy  |    Val loss   | Test accuracy |  DIG accuracy |    Changes    |     Comments  |
@@ -20,24 +18,25 @@ Progress:
 
 NOTE: performance metrics reported are top-1 metrics
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-Model architecture with dense layers as reconstruction/decoder network(1.0.2):
-![Model architecture in use(1.0.2)](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada%20mnist/images/model.png)
-
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Model architecture in use(uses deconvolutional network as a reconstruction network)(1.0.5):
+Model architecture(uses a Transposed convolutional network as a reconstruction network)(1.0.5):
 
 Encoder(Convolution + Primary Capsule + Digit Capsule layers)
 ![Encoder(1.0.5)](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada%20mnist/images/model2.png)
 
--------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Decoder/Reconstruction(Deconvolutional network)
+Decoder/Reconstruction(Transposed convolutional network)
 
 ![Decoder/Reconstruction(1.0.5)](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada%20mnist/images/decoder.png)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Model architecture with dense layers as reconstruction/decoder network(old || 1.0.2):
+![Model architecture in use(1.0.2)](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada%20mnist/images/model.png)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
