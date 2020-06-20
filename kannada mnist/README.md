@@ -20,7 +20,7 @@ Use the weights for the 2 scripts as instructed in the <b>README inside the weig
 <b>Model architecture</b>(uses a Capsule network for learning the features and a Transposed convolutional network as a reconstruction and regularisation network)(1.0.5):
 
 <b>Encoder</b>(Convolution + Primary Capsule + Digit Capsule layers)
-![Encoder(1.0.5)](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada%20mnist/images/model2.png)
+![Encoder(1.0.5)](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada%20mnist/images/capsnet.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
