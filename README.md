@@ -1,5 +1,5 @@
 # Capsule-Networks
-Trial scripts for implementing the novel * [Capsule Network](https://arxiv.org/pdf/1710.09829.pdf) architecture for solving computer vision problems.
+Trial scripts for implementing the novel [Capsule Network](https://arxiv.org/pdf/1710.09829.pdf) architecture for solving computer vision problems.
 
 The folder <b>mnist experiments</b> holds scripts for implementing the CapsNet architecture on the classic MNIST dataset<br>
 
