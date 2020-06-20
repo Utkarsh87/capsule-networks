@@ -19,7 +19,7 @@ NOTE: performance metrics reported are top-1 metrics
 Model architecture(uses a Transposed convolutional network as a reconstruction network)(1.0.5):
 
 Encoder(Convolution + Primary Capsule + Digit Capsule layers)
-![Encoder(1.0.5)](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada%20mnist/images/model2.png)
+![Encoder(1.0.5)](https://github.com/Utkarsh87/Capsule-Networks/blob/master/kannada%20mnist/images/capsnet.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
