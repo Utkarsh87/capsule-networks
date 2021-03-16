@@ -13,7 +13,7 @@ The folder <b>kannada mnist</b> holds notebooks implementing the CapsNet archite
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The folder <b>src</b> holds PyTorch code implementing the CapsNet architecture on the MNIST dataset(inference TBD)<br>
-Instructions: Zip all the py files in src into CapsNet.zip and upload the zip to colab nb provided in src and run the cells in order<br>
+Zip all the py files in src into CapsNet.zip and upload the zip to colab nb provided in src and run the cells in order<br>
 PyTorch implementation is almost entirely based on [this notebook](https://github.com/cezannec/capsule_net_pytorch/blob/master/Capsule_Network.ipynb)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
