@@ -117,4 +117,5 @@ import matplotlib.pyplot as plt
 
 plt.plot(losses)
 plt.title("Training Loss")
+plt.savefig("lossplot.jpg")
 plt.show()
